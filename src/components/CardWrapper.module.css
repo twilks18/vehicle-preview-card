@@ -16,7 +16,7 @@
     border-bottom-left-radius: 7px;
   }
   
-  @media(min-width: 400px ) {
+  @media(min-width: 800px ) {
 
    .container { 
         flex-direction: row;

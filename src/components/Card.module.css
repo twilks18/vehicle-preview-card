@@ -13,7 +13,7 @@
     min-height: 80%;    
 }
 
-@media (min-width: 400px) {
+@media (min-width: 800px) {
     .container {
         min-height: 25rem;
     }
