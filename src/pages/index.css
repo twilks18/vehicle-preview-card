@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;   
+    justify-content: center; 
+    align-items: center;
+    margin: 5rem 0 25rem 0;
+    padding: 0;
+    }
+
+    @media (min-height: 800px) {
+      body {margin: 5rem 0 22rem 0;}
+
+    }
+
+    @media (min-height: 1000px) {
+      body {margin: 5rem 0 8rem 0;}
+
+    }
+
+

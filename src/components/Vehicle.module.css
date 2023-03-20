@@ -1,0 +1,27 @@
+.descriptionText {
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.5em ;
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+
+  }
+  
+ @media (min-width: 400px) {
+    h1 {
+        
+        margin-top: 1.5rem;
+    
+      }
+
+      .descriptionText {
+        margin-bottom: 4rem;
+        line-height: 1.8;
+      }
+    
+}

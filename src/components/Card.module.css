@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 2.5rem 0;
+    min-width: 100%;
+    min-height: 23rem;
+}
+
+.content {
+    max-width: 90%;
+    min-height: 80%;    
+}
+
+@media (min-width: 400px) {
+    .container {
+        min-height: 25rem;
+    }
+
+
+    .content {
+        margin-top: 2rem;
+
+    }
+    
+}
