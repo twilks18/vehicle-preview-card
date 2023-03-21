@@ -16,6 +16,35 @@
     padding: 0;
     }
 
+    /* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+  body {margin: 5rem 0 22rem 0;}
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+  body {margin: 5rem 0 22rem 0;}
+
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+  body {margin: 5rem 0 22rem 0;}
+
+}
+
     @media (min-height: 800px) {
       body {margin: 5rem 0 22rem 0;}
 
